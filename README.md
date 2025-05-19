@@ -78,10 +78,14 @@ This project builds an end-to-end machine learning system that predicts a movieâ
 ## ðŸ“ˆ Visual Outputs
 
 Plots generated via `Evaluate_Model.py`:
-- `roc_curve.png`
-- `pr_curve.png`
-- `confusion_matrix.png`
-- `calibration_curve.png`
+- ![roc_curve](https://github.com/user-attachments/assets/6f178afc-0d1c-4597-8303-53a5c5f2cf78)
+
+- ![pr_curve](https://github.com/user-attachments/assets/db9101a7-4419-43c3-8f6d-b2716a925582)
+
+- ![confusion_matrix](https://github.com/user-attachments/assets/7da2ac1d-ad53-4580-b41f-ae75911a078a)
+
+- ![calibration_curve](https://github.com/user-attachments/assets/3654c1f3-2a09-431f-b31f-d74cf7f2189e)
+
 
 ---
 
@@ -91,7 +95,7 @@ Plots generated via `Evaluate_Model.py`:
 python INFERENCE_API.py
 ```
 
-Then visit: http://localhost:5000  
+Then visit: localhost  
 Submit movie details via the form to receive:
 - Success probability
 - Revenue prediction
